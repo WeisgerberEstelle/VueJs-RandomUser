@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+ body {
+    font-family:'Bellota', cursive;
+}
+
+img{
+    border-radius: 50%;
+    width:200px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.male {
+    border:pink 10px solid;
+    background-color: pink;
+    color:#333
+}
+
+.female {
+    border:skyblue 10px solid;
+    background-color: skyblue;
+    color:#333;
+}
+
+button {
+    cursor: pointer;
+    border-radius:10px;
+    box-shadow: 4px 4px 4px rgb(228, 228, 228);
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    box-shadow: 4px 4px 4px rgb(228, 228, 228);
+    width: 20vw;
+    max-width: 300px;
+    padding: 2em;
+    background-color: rgb(242, 250, 236);
+}
